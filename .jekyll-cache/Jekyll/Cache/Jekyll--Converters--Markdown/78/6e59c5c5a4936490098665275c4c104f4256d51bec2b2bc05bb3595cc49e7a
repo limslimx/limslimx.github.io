@@ -1,4 +1,4 @@
-I"<p>기본적인 텍스트 표기 방식이다.
+I"�<p>기본적인 텍스트 표기 방식이다.
 마크다운은 줄바꿈을 인식하지 않는다.</p>
 
 <p>줄바꿈을 하기 위해서는 라인 끝에 스페이스를 2번<br />
@@ -82,11 +82,10 @@
 <p><strong>4. 코드 인용</strong><br />
 ```를 코드 앞뒤에 붙여 코드 인용 가능</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code></code></pre></div></div>
-<p>function test(){
-	console.log(“code test using `”);
-}</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code></code></pre></div></div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function test(){
+	console.log("code test using `");
+}
+</code></pre></div></div>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>fucntion test(){
 	console.log("code test using `");
@@ -109,5 +108,13 @@
 <a href="https://google.com">https://google.com</a></p>
 
 <p><strong>7. 이미지 삽입</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](http://localhost:4000/assets/images/football.jpeg)
+</code></pre></div></div>
 
+<p><img src="http://localhost:4000/assets/images/football.jpeg" alt="" /></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](http://localhost:4000/assets/images/football.jpeg){: .align-center}
+</code></pre></div></div>
+
+<p><img src="http://localhost:4000/assets/images/football.jpeg" alt="" class="align-center" /></p>
 :ET
