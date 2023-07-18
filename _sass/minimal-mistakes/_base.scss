@@ -126,7 +126,7 @@ blockquote {
 /* links */
 
 a {
-  text-decoration: none;
+  text-decoration: none;  // 제목에 마우스 갖다댔을때 밑줄 안나오게
 
   &:focus {
     @extend %tab-focus;
